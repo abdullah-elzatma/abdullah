@@ -6,7 +6,7 @@
 }
 
 ul{
-       background-color: #3c08a5;
+       background-color: #1689ff;
     height: 100px;
     list-style-type: none;
     margin: 0px;
@@ -87,9 +87,8 @@ li :focus{
 }
 
 #circle{ 
-    width: 280px;
-    height: 280px;
-   background-color: white;
+   
+
     border-radius: 220px;
   position: absolute;
     margin-top: 100px;
@@ -131,6 +130,3 @@ li :focus{
     
     
 }
-
-
-
