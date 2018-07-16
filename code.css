@@ -1,172 +1,270 @@
- body{
-  margin:0;
-  padding:0;
-  font-family:Helvetica,Arial,sans-serif;
-  background-color:#bbbbbb;
-}
-
-ul{
-       background-color: #1689ff;
-    height: 100px;
-    list-style-type: none;
+body{
     margin: 0px;
-   position: relative;
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
-    
-}
-
-
- #navR{
-   float: right;
-   padding-top: 10px;
-   padding-right: 10px;
-    
-    
-}
-
-#ab{
-    padding-top: 30px;
-    padding-left:40px; 
+    padding-top: 100px;
+    font-family: Helvetica;
    
-}
-
-#ab a{
-     text-decoration: none;
-    color: white;
-    font-size: 25px;
-}
-
-#navR a{
-    display: block;
-    color: white;
-    padding:25px;
-    font-size: 20px;
-    text-decoration: none;
   
-}
-#navR :hover{
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.4);
     
-}
-#navR :focus{
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.4);
-    
-}
-
-
-.sc{
-  
-   height:510px;
-  background-color:#aaaaaa;
-        box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.4);
-
-
-  
-}
-
-.my{
-    width:40%;
-    font-size: 2em;
-    margin-left:130px;
-    margin-top: 80px;
-    color: white;
-    font-weight:normal;
-    position: absolute;
-    
-}
-
-
-.sc12{
-  
-   height:510px;
-  background-color:#bdbdbd;
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
 }
  
-.psc{
-    width:55%;
-    font-size: 2em;
-    margin-left:130px;
-    margin-top: 80px;
-    color: white;
-    font-weight:normal;
-    position: absolute;
-    
-}
-
-.bor{
-    border-bottom-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 6px;
-    width: 30%;
-    position: absolute;
-    margin-top:190px;
-    margin-left: 140px;
-    
-}
-
-.psc2{
-    width:50%;
-    font-size:20px;
-    margin-left:130px;
-    margin-top: 210px;
-    color: white;
-    font-weight:normal;
-    position: absolute;
-    
-}
-
-#circle{ 
-   
-
-    border-radius: 220px;
-  position: absolute;
-    margin-top: 100px;
-    margin-left: 850px;
-     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
-}
 
 
 
-.sc2{
-    background-color:#7613ff;
-    background-color: rgba(0, 0, 0, 0.5);
+nav{
+    background-color: #3793b8;
     height: 100px;
-}
-
-
-
-
-.ff img{
+    width:100%;
+    top: 0px;
+    box-shadow: 0px 1px 2px 6px rgba(0, 0, 0, 0.2);
+    position: fixed; 
     
-    width: 20px;
-    height: 25px;
+}
+nav ul {
+   padding-right: 20px;
 }
 
-.a{
-   left: 275px;
-    top:-30px;
-    position: relative;
-             box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
-}
+nav ul li{
+   float: right;
+    list-style-type: none;
+    padding-right: 10px;
+    
+} 
 
-.b{
-    margin-left: 250px;
-    margin-top: 40px;
-             box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
-}
-
-.ff p{
+li a{
+    display: block;
     color: white;
-    position: absolute;
-    left:300px;
-bottom: -535px;
+    padding: 20px;
     
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-     
+     font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
     
+}
+
+.ul:hover{
+    background-color: #0879a6;
+    border-radius: 10px;
+        box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+section:first-child{
+    padding-top: 30px;
+   background-color:#888;
+
+    height: 550px;
+ 
+    
+}
+
+section:first-child header{
+    margin-left: 60px;
+    padding-top: 70px;
+    text-align: center;
+    
+    
+  
+}
+
+section:first-child hr{
+ 
+    background-color: white;
+    
+}
+
+section:first-child header h2{
+   
+    margin-top:0px;
+    color: white;
+    font-weight: bold;
+    
+    font-family:Arial;
+    font-size: 30px;
+}
+.qq{
+    clear:both;
+}
+
+
+.myimg{
+
+    height: 300px;
+    width:300px;
+    background-color: white;
+    border-radius: 150px;
+   
+    margin-top: 30px;
+    margin-right: 130px;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.3);
+    float: right;
+   
+}
+
+.myimg img{
+    width: 300px;
+    height: 300px;
+   
+  
+}
+
+
+
+.overview{
+    color: white;
+    width: 55%;
+   
+    letter-spacing: 1px;
+    word-spacing:0px;
+    float: left;
+    margin-left:80px;
+    margin-top: 30px;
+    line-height: 45px;
+  
+    font-size: 1.8em;
+    text-align:justify;
+   
+}
+.overview p{
+ 
+    margin-top: 0px;
+    
+}
+.overview span{
+    padding-left: 20px auto;
+    font-weight: bolder;
+    font-family: Arial;
+    font-style: normal;
+    margin-left: 200px;
+}
+section:nth-child(2){
+    background-color:white;
+    height: 350px;
+    padding: 10px;
+    
+    box-shadow: 0px 2px 8px 6px rgba(0, 0, 0, 0.3);
+    color: #888;
+    padding-top: 40px;
+}
+
+.myName{
+    float: right;
+   /* margin-right: 160px;*/
+    margin-top: 280px;
+    
+    color: white;
+}
+section:nth-child(2) h2{
+    margin-top:0px;
+    color: #888;
+    font-weight: bold;
+    
+    font-family:Arial;
+    font-size: 30px;
+}
+
+section:nth-child(2) header{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+section:nth-child(2) hr{
+    background-color: #888;
+}
+
+section:nth-child(2) p{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 80px;
+}
+
+section:nth-child(3){
+    height: 350px;
+    background-color: #888;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    padding-top: 40px;
+    color: white;
+   
+}
+
+section:nth-child(3) h2{
+margin-top:0px;
+    color: white;
+    font-weight: bold;
+   
+    font-family:Arial;
+    font-size: 30px;
+    }
+
+section:nth-child(3) header{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+section:nth-child(3) .ph{
+width: 200px;
+height: 40px;
+    padding: 2px;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.3);
+    margin-left: 42%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+section:nth-child(3) .ph img{
+    margin: 2px;
+    margin-top: 5px;
+}
+
+section:nth-child(3) .fb img{
+    margin: 2px;
+    margin-top: 5px;
+}
+
+section:nth-child(3) .fb{
+width: 200px;
+height: 40px;
+ box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.3);
+    margin-left: 42%;
+    margin-top:30px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+section:nth-child(3) hr{
+    background-color: white;
+}
+
+
+
+
+section:nth-child(3) .ph span{
+float: right;    
+    margin-right:30px;
+    margin-top: 14px;
+}
+section:nth-child(3) .fb span{
+float: right;    
+   margin-top: 14px;
+    margin-right: 80px;
+}
+
+
+section:nth-child(4){
+    height: 100px;
+    background-color:#888;
+     box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.3);
+color: white;
+}
+
+section:nth-child(4) span{
+    float: left;
+    margin-left: 45% ;
+    margin-top: 30px;
 }
